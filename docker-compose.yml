@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    build: db/
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+  gitrob:
+    build: gitrob/
+    ports:
+      - 9696:9696
+

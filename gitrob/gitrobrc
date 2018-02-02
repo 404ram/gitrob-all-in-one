@@ -1,0 +1,4 @@
+---
+sql_connection_uri: postgres://gitto:gitto@db:5432/gitto
+github_access_tokens:
+- <token>
